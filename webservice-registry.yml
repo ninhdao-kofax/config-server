@@ -18,7 +18,7 @@ spring:
   profiles: docker
 eureka:
   instance:
-    hostname: eurekaregistry
+    hostname: discovery-service
   client:
     registerWithEureka: false
     fetchRegistry: false
