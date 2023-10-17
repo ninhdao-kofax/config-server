@@ -41,7 +41,7 @@ eureka:
     preferIpAddress: true
   client:
     serviceUrl:
-      defaultZone: http://eurekaregistry:8761/eureka/
+      defaultZone: http://discovery-service:8761/eureka/
 
 # Define the port where the API gateway server would be running. This could always be port 8080
 # since each docker container has it's own IP
